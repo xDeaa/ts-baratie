@@ -1,9 +1,9 @@
 import { Worker, isMainThread } from "worker_threads"
 import chalk from 'chalk';
 
-import { IngredientStock, Dish } from "./interface";
+import { IngredientStock, Dish } from "../interface";
 import Cooker from "./Cooker"
-import { ingredient, IngredientTakoyaki, ingredientMatchaCookie, IngredientRamen, IngredientUdon, IngredientKatsudon } from "./enum/ingredients";
+import { ingredient, IngredientTakoyaki, ingredientMatchaCookie, IngredientRamen, IngredientUdon, IngredientKatsudon } from "../enum/ingredients";
 
 export default class Kitchen {
     public cookers: Cooker[] = []

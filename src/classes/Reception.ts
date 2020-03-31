@@ -2,9 +2,9 @@ import chalk from 'chalk';
 import cluster from "cluster"
 import readline from 'readline';
 
-import { dishesList, dishesSizeList } from './enum/dishes';
-import { Dish } from "./interface";
-import KitchenFactory from './factories/KitchenFactory';
+import { dishesList, dishesSizeList } from '../enum/dishes';
+import { Dish } from "../interface";
+import KitchenFactory from '../factories/KitchenFactory';
 import Kitchen from './Kitchen';
 
 const [, , timeCooking, cookers, timeStocking] = process.argv;

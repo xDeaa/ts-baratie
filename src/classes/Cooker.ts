@@ -1,8 +1,8 @@
 import { v4 as uuidv4 } from 'uuid';
 import chalk from 'chalk';
 
-import { dishesTime, dishesList } from './enum/dishes';
-import { Dish } from "./interface";
+import { dishesTime, dishesList } from '../enum/dishes';
+import { Dish } from "../interface";
 
 
 export default class Cooker {

@@ -1,5 +1,5 @@
 import chalk from 'chalk';
-import Reception from './Reception';
+import Reception from './classes/Reception';
 
 if (process.argv.length < 5) {
     console.log(chalk.red.bold("Sorry you must enter 3 argument [COOKING TIME] [COOKERS] [STOCK TIME]"));

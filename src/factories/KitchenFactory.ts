@@ -1,8 +1,8 @@
 import cluster from "cluster"
 
 import { IngredientStock } from '../interface'
-import Kitchen from "../Kitchen"
-import Cooker from "../Cooker"
+import Kitchen from "../classes/Kitchen"
+import Cooker from "../classes/Cooker"
 
 export default class KitchenFactory {
   private stockKitchen: IngredientStock = {
